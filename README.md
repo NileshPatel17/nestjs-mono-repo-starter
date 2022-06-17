@@ -36,38 +36,33 @@ $ npm install
 
 ```bash
 # development
-$ npm run start
+$ npm run start <app_name>
 
 # watch mode
-$ npm run start:dev
+$ npm run start:dev <app_name>
+
+## examples
+$ npm run start:dev micro-servie-A
+
+$ npm run start:dev micro-servie-B
 
 # production mode
-$ npm run start:prod
+$ npm run start:prod <app_name>
 ```
 
 ## Test
 
 ```bash
 # unit tests
-$ npm run test
+$ npm run test <app_name>
 
 # e2e tests
-$ npm run test:e2e
+$ npm run test:e2e <app_name>
 
 # test coverage
-$ npm run test:cov
+$ npm run test:cov <app_name>
 ```
 
-## Support
+## Reference
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+https://github.com/128BitStudios/microservices_nestjs_rabbitmq_course
