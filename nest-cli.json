@@ -9,7 +9,7 @@
     "tsConfigPath": "apps/micro-service-a/tsconfig.app.json"
   },
   "projects": {
-    "micro-service-a": {
+    "@app/micro-service-a": {
       "type": "application",
       "root": "apps/micro-service-a",
       "entryFile": "main",
@@ -18,7 +18,7 @@
         "tsConfigPath": "apps/micro-service-a/tsconfig.app.json"
       }
     },
-    "micro-service-b": {
+    "@app/micro-service-b": {
       "type": "application",
       "root": "apps/micro-service-b",
       "entryFile": "main",
