@@ -47,7 +47,8 @@ $ npm run start:dev micro-servie-A
 $ npm run start:dev micro-servie-B
 
 # production mode
-$ npm run start:prod <app_name>
+$ start:micro-service-a:prod
+$ start:micro-service-b:prod
 ```
 
 ## Test
